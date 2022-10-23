@@ -1,0 +1,67 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #34013a;
+}
+
+[class*="__container"] {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: mediumslateblue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ee009f;
+}
+
+[class*="__title"] {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9rem;
+    color: #6c0075;
+}
+
+/*-----------------------------------------------------*/
+
+.developers-card__individual {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.developers-card__info {
+    display: flex;
+    align-items: center;
+}
+
+.developers-card__photo {
+    width: 30%;
+    align-self: center;
+}
+
+.developers-card__details {
+    width: 70%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
